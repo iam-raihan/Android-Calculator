@@ -10,7 +10,6 @@
             android:layout_height="wrap_content"
             android:editable="false"
             android:ems="10"
-            android:gravity="right"
             android:text="" android:longClickable="false">
 
             <requestFocus />
@@ -218,14 +217,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="^"
-                    android:onClick="squareBtn" />
-
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="π"
-                    android:onClick="pieBtn" />
+                    android:onClick="signBtn" />
 
                 <Button
                     android:id="@+id/button15"
@@ -233,6 +225,13 @@
                     android:layout_height="wrap_content"
                     android:text="←"
                     android:onClick="backBtn" />
+                
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C"
+                    android:onClick="clearBtn" />
 
             </TableRow>
 
