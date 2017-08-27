@@ -216,7 +216,7 @@ public class AndroidCalculatorActivity extends Activity {
 	}
 	
 	public void memoryPlus(View btn){
-		String resultText = calculate(textBox.getText().toString() + "+" + readData());
+		String resultText = calculate(readData() + "+" + textBox.getText().toString());
 		
 		if (checkString(resultText))
 			return;
@@ -224,7 +224,7 @@ public class AndroidCalculatorActivity extends Activity {
 	}
 	
 	public void memoryMinus(View btn){		
-		String resultText = calculate(textBox.getText().toString() + "-" + readData());
+		String resultText = calculate(readData() + "-" + textBox.getText().toString());
 		
 		if (checkString(resultText))
 			return;
