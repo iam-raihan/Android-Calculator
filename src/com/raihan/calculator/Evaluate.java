@@ -17,7 +17,7 @@ public class Evaluate {
     }
 	
 	private boolean isDigit() {
-		return ch >= '0' && ch <= '9'; 		// or return Character.isDigit(char);
+		return (ch >= '0' && ch <= '9') || ch=='E';
 	}
 	
 	private double getNumber(int startPos) {
