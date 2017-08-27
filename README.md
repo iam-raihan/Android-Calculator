@@ -3,4 +3,4 @@ A very basic calculator with M+, M-, MR, MC for academic course "Embedded Techno
 ```
 Sample Input: 2+-2+√2^2
 ```
-![Sample Input: 2+-2+√2^2](https://user-images.githubusercontent.com/17286930/29749383-a3d7f088-8b4b-11e7-8407-b243e7f40224.PNG)
+![Sample Input: 2+-2+√2^2](https://user-images.githubusercontent.com/17286930/29749436-3d6e3dbe-8b4d-11e7-9bb3-5a039b209ef1.PNG)
