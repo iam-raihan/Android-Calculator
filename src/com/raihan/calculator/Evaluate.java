@@ -72,10 +72,10 @@ public class Evaluate {
         }
     }
 
-	private double getFactor() {			//solves: √9.5 or 3.5^3 or -3 or 35.8 or 10  
+	private double getFactor() {			//solves: root_over(9.5) or 3.5^3 or -3 or 35.8 or 10  
         if (isSign('-')) 
         	return -getFactor(); 			// unary minus
-        if (isSign('√'))
+        if (isSign('√')) //paste here root over sign and save file in UTF-8 format
         	return Math.sqrt(getFactor());
         
         double num;

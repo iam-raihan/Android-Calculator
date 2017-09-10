@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class AndroidCalculatorActivity extends Activity {
+public class MainActivity extends Activity {
 	
 	public static final String PREFS_NAME = "CalPrefsFile";
 	public static final String INVALID = "Invalid Expression";
@@ -33,7 +33,7 @@ public class AndroidCalculatorActivity extends Activity {
 	}
 	
 	private boolean isSign(char ch) {
-		return isArithmetic(ch) || ch == '√';
+		return isArithmetic(ch) || ch == '√'; //paste here root over sign and save file in UTF-8 format
 	}
 	
 	private boolean isDigit(char ch) {
@@ -174,7 +174,7 @@ public class AndroidCalculatorActivity extends Activity {
 	public void rootBtn(View btn) {
 		initialize(btn);
 		int pos = curPos;
-		if(notUsed('√', curPos)) {
+		if(notUsed('√', curPos)) { //paste here root over sign and save file in UTF-8 format
 			char[] text = textBoxText.toCharArray();
 			while(curPos != 0) {
 				if(! isDigit(text[curPos - 1]) && text[curPos - 1] != '.') {
